@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>Our.TranslationManager.LeBlender</id>
+		<version>1.0.0</version>
+		<title>Leblender Mappers for Umbraco - Translation Manager Umbraco v8</title>
+		<authors>Jumoo</authors>
+		<owners>Jumoo</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://jumoo.co.uk/translate</projectUrl>
+		<description><![CDATA[Value and LinkMappers for Leblender in Translation Manager v8. As LeBlender doesn't offically support Umbraco 8 - this package is provided as is.]]></description>
+		<releaseNotes><![CDATA[1.0 Initial version.]]></releaseNotes>
+		<copyright>Copyright 2020</copyright>
+		<tags>UmbracoCms Umbraco TranslationManager</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.7.2">
+				<dependency id="Jumoo.TranslationManager.Core" version="8.2" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\release\Our.TranslationManager.Leblender.dll" target="lib\net472" />
+	</files>
+
+</package>
